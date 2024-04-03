@@ -1,0 +1,23 @@
+{
+   "canisters": {
+      "mentorx": {
+         "type": "custom",
+         "main": "src/index.ts",
+         "candid": "src/index.did",
+         "candid_gen": "http",
+         "build": "npx azle mentorx",
+         "wasm": ".azle/mentorx/mentorx.wasm",
+         "gzip": true,
+         "metadata": [
+            {
+               "name": "candid:service",
+               "path": "src/index.did"
+            },
+            {
+               "name": "cdk:name",
+               "content": "azle"
+            }
+         ]
+      }
+   }
+}
