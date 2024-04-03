@@ -1,4 +1,4 @@
-# User-Booking Management System
+# MentorX
 
 In an era where experts in various subjects are quite hard to come by, MentorX aims to connect individuals with specific knowledge and individuals who want to acquire the knowledge. MentorX is a mentorship management system that allows mentees to book the time of mentors. This is made possible through APIs for user registration, login, logout, mentor search, booking creation, booking retrieval, and booking management (reschedule, cancel, accept, reject). It is built using TypeScript, Azle and Express, and it leverages the Internet Computer's system in achieving decentralization.
 
